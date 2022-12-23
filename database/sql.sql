@@ -1,0 +1,5 @@
+SELECT faculty.faculty_name, faculty.faculty_id, department.dept_id, COUNT(*) AS total FROM faculty, department, post WHERE department.faculty_id = faculty.faculty_id AND post.dept_id = department.dept_id AND post.available = 'yes' GROUP BY faculty.faculty_name
+CREATE VIEW post_list AS SELECT post.post_id, faculty.faculty_id AS faculty, faculty.faculty_name, department.deptName, post.jobtitle, post.description, post.required FROM faculty, department, post WHERE department.faculty_id = faculty.faculty_id AND post.dept_id = department.dept_id AND post.available = 'yes'
+
+/* Query to filter phone number of the applicant */
+SELECT phone FROM user, application, applicant WHERE application.applicant_id = applicant.applicant_num AND applicant.user_id = user.user_id AND application.application_id AND applicant.applicant_num = 12

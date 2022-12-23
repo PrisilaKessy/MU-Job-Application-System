@@ -1,0 +1,33 @@
+.border {
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-top: 4rem;
+    box-shadow:3px 3px 19px #888888;
+    opacity: inherit;
+}
+#signin:hover::after{
+    cursor: auto;
+    color: aqua;
+}
+.nav-hover:hover {
+    background-color: rgb(37, 37, 37);     
+}
+.mu-btn {
+    background-color: #f5784c;
+    color:white;
+    transition: all 1s ease-in-out;
+}
+
+.mu-btn:hover {
+    background-color: #f16735;
+    color:white;
+}
+
+.mu-text {
+    color: #f5784c;
+}
+
+.mu-bg {
+    background-color: #f5784c;
+    color: white;
+}

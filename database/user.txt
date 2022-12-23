@@ -1,0 +1,19 @@
+Hey! there I'm George who developed this System (MU-FA), Welcome and provide your opinions
+in order to improve the system, I hope you will enjoy the presence. Thank you in advance!
+
+
+THESE BELOW ARE THE SAMPLE OF USERS YOU CAN USE IN THIS SYSTEM, AND ALSO YOU CAN CREATE YOUR
+OWN, BECAUSE THE SYSTEM PROVIDE THOSE PRIVILEGE
+
+username: ehgets     type: admin
+password: 654321
+
+username: dict       type: admin
+password: 123456
+
+username: ibrah      type: admin
+password: 123456
+
+username: rebi       type: applicant
+password: 123456
+
